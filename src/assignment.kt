@@ -1,15 +1,21 @@
 fun main() {
-    var student= 24
-    var apples= 2
-    var total= (student * apples)
-    print(total)
-    val name="jane"
+    var name:String="jane Wanjiru"
     println(name)
-    var num1=10
-    var num2=12
-    println(num1*num2)
-    println(num1/num2)
-    println(num1-num2)
+    var age:Int=21
+    println(age)
+    var phonenumber:String="0705895365"
+    println(phonenumber)
+    var weight:Int=56
+    println(weight)
+    var citizen:String="kenya"
+    println(citizen)
+
+
+
+
+
+
+
 
 
 }
