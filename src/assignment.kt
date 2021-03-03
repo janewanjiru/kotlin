@@ -1,30 +1,39 @@
 fun main() {
-println ("Hello jane")
-var result= mod (3,9)
-    add ()
+    name()
+    modulus()
+    add()
     me()
+
 }
-fun jane (){
-    println("Hello jane")
+fun name() {
+    val name=("Hello Jane")
+    println("Hello Jane")
+
 }
-fun mod ( a:Int, b:Int) :Int{
-    var result= (a%b)
-    return (result)
+fun modulus() {
+    var a=20
+    var b=10
+    var modulus=(a%b)
+    println(modulus)
+
+
 }
-fun add (){
-    var num1=20
-    var num2=30
-    var num3=70
-    var num4=10
-    var sum=num1+num2+num3+num4
+fun add() {
+   var num1=20
+   var num2=10
+    var num3=30
+    var num4=40
+    var sum=(num1+num2+num3+num4)
     println(sum)
-}
 
+}
 fun me() {
-    var Fact= "jovial"
-    println(Fact)
+    var fact="jovial"
+    println("jovial")
 
 }
+
+
 
 
 
